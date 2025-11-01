@@ -35,7 +35,7 @@ function Navbar() {
       hover: "hover:text-blue-400",
     },
     {
-      href: "https://github.com/amirnekoonam",
+      href: "https://github.com/emwiri",
       icon: <SlSocialGithub />,
       hover: "hover:text-white",
     },
@@ -51,7 +51,7 @@ function Navbar() {
       sections.forEach((section) => {
         const sectionTop = section.offsetTop - 250;
         if (window.scrollY >= sectionTop) {
-          current = section.getAttribute("id");
+          current = section.getAttribute("id") ?? "";
         }
       });
 

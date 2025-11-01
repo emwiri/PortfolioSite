@@ -25,10 +25,10 @@ function Main() {
             </p>
 
             <a
-              href="#contact"
+              href="https://filebin.net/xcyxb0u2rwh11muj"
               className="inline-block bg-[#3F8E00] text-white font-sans py-3 px-8 rounded-lg mt-4 shadow hover:bg-[#4aa500] transition"
             >
-              Get in Touch
+             Download Resume As Pdf
             </a>
           </div>
 
