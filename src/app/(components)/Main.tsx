@@ -9,7 +9,7 @@ function Main() {
   return (
     <main className="max-w-[1200px] mx-auto px-6 py-16">
       {/* Hero Section */}
-      <section id="home" className="scroll-mt-28">
+      <section id="home" className="">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 mt-16">
           {/* Text Section */}
           <div className="text-center md:text-left mt-10 md:mt-0">
@@ -25,7 +25,7 @@ function Main() {
             </p>
 
             <a
-              href="https://filebin.net/xcyxb0u2rwh11muj"
+              href="https://filebin.net/xcyxb0u2rwh11muj/AmirNeoonamResume.pdf"
               className="inline-block bg-[#3F8E00] text-white font-sans py-3 px-8 rounded-lg mt-4 shadow hover:bg-[#4aa500] transition"
             >
              Download Resume As Pdf
@@ -44,18 +44,18 @@ function Main() {
       </section>
 
       {/* Tools Section */}
-      <section id="tools" className="scroll-mt-28">
+      <section id="tools" className="">
         <Courses />
         <Journey />
       </section>
 
       {/* Recent Work */}
-      <section id="recentwork" className="scroll-mt-28">
+      <section id="recentwork" className="">
         <RecentWork />
       </section>
 
       {/* Contact */}
-      <section id="contact" className="scroll-mt-28">
+      <section id="contact" className="">
         <ContactPage />
       </section>
     </main>

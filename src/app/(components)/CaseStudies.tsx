@@ -24,7 +24,7 @@ function CaseStudies() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center bg-[#1B1B1B] p-6 rounded-2xl hover:scale-105 hover:shadow-[0_0_15px_#3F8E00] shadow-[0_0_15px_#729567]   transition duration-300"
+            className="flex flex-col items-center justify-center bg-[#1B1B1B] p-6 rounded-2xl hover:scale-105 hover:shadow-[0_0_15px_#3F8E00]  shadow-[0_0_10px_#3f562c]   transition duration-150"
           >
             <div className="text-5xl mb-4">{skill.icon}</div>
             <p className="text-[#9C9C9C] font-semibold">{skill.name}</p>

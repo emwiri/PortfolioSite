@@ -31,7 +31,7 @@ export default function RecentWork() {
   ];
 
   return (
-    <Container className="py-20">
+    <Container className="py-10">
       {/* Title */}
       <div className="flex items-center justify-center mb-10">
         <Typography variant="h3" sx={{ fontWeight: "bold", color: "white" }}>
