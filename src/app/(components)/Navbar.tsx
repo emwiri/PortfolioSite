@@ -1,6 +1,4 @@
 "use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import {
   SlSocialGithub,
@@ -11,7 +9,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
 function Navbar() {
-  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
