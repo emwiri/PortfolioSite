@@ -1,7 +1,7 @@
 {
-  "engines": {
-    "node": "18.x"
-  },
+ "engines": {
+  "node": "22.x"
+},
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
