@@ -2,7 +2,7 @@
 
 This is my **personal portfolio website**, built with **Next.js**, **Tailwind CSS**, and **MUI** to showcase my recent projects, skills, and tools I use as a frontend developer.
 
-🌐 **Live Demo:** [https://your-portfolio-link.vercel.app](https://your-portfolio-link.vercel.app)
+🌐 **Live Demo:** [https://portfolio-site-9wbh.vercel.app](https://portfolio-site-9wbh.vercel.app/)
 
 ---
 
